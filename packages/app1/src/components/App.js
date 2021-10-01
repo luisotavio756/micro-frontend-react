@@ -15,7 +15,7 @@ export default function App1() {
   }, []);
 
   return (
-    <div>
+    <div id="app1_remote">
       <h1>Counter</h1>
       <h3>{count}</h3>
     </div>
