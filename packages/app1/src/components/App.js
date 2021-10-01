@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
+import { useEffect, useState } from 'react'
 
 export default function App1() {
   const [count, setCount] = useState(0);

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#main_app {
+  border-color: coral;
+  border-style: solid;
+}
+
+#app1_remote {
+  border-color: royalblue;
+  border-style: solid;
+}

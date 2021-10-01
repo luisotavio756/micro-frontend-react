@@ -1,20 +1,7 @@
 module.exports = {
-  "plugins": [
-    "@babel/plugin-proposal-class-properties",
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "regenerator": true
-      }
-    ]
-  ],
+  plugins: [],
   presets: [
     '@babel/preset-env',
-    [
-      '@babel/preset-react',
-      {
-        runtime: 'automatic'
-      }
-    ]
+    '@babel/preset-react'
   ]
 };

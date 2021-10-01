@@ -20,12 +20,12 @@ module.exports = {
   plugins: [
     isDevelopment && new ReactRefreshWebpackPlugin(),
     new ModuleFederationPlugin({
-      name: 'app1',
+      name: 'app1_remote',
       filename: 'remoteEntry.js',
       exposes: {
-        'App': './src/components/App'
+        './App': './src/components/App'
       },
-      shared: ['react@17', 'react-dom@17']
+      shared: ['react', 'react-dom']
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
@@ -46,7 +46,7 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader']
       }
