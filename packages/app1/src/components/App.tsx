@@ -16,7 +16,7 @@ export default function App1() {
 
   return (
     <div id="app1_remote">
-      <h1>Counter</h1>
+      <h1>Counter from Team 2</h1>
       <h3>{count}</h3>
     </div>
   )
