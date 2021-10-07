@@ -5,12 +5,23 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+}
+
 #main_app {
+  flex: 0.5;
   border-color: coral;
   border-style: solid;
 }
 
 #app1_remote {
+  flex: 0.5;
   border-color: royalblue;
+  border-style: solid;
+}
+
+#app2_remote {
+  border-color: green;
   border-style: solid;
 }

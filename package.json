@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev:app1": "cd packages/app1 && yarn dev",
+    "dev:app2": "cd packages/app2 && yarn dev",
     "dev:main":  "cd packages/main && yarn dev"
   },
   "version": "1.0.0",
